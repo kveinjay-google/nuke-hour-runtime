@@ -1,0 +1,47 @@
+# macOS
+.DS_Store
+.AppleDouble
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local environment and credentials
+/.env
+/.env.*
+!/.env.example
+!/.env.*.example
+!/.env.example.*
+/*.pem
+/*.key
+/*.p12
+/*.pfx
+/credentials.json
+/secrets.json
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+.cache/
+
+# Unity and private content
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+PrivateUserContent/
+*.bundle
+*.ipa
+*.mobileprovision
+*.cer
+*.p8
+*.a
+*.dll
+*.so
+*.zip
+__pycache__/

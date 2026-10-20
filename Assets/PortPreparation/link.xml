@@ -1,0 +1,12 @@
+<linker>
+  <assembly fullname="Assembly-CSharp">
+    <!-- Discovery uses GetExportedTypes + LuaBinderAttribute + GetMethod("GetBindList"). -->
+    <type fullname="SLua.BindUnity" preserve="all" />
+    <type fullname="SLua.BindUnityUI" preserve="all" />
+    <type fullname="SLua.BindUnityAds" preserve="all" />
+    <type fullname="SLua.BindCustom" preserve="all" />
+  </assembly>
+  <assembly fullname="Assembly-CSharp-firstpass">
+    <type fullname="SLua.LuaBinderAttribute" preserve="all" />
+  </assembly>
+</linker>

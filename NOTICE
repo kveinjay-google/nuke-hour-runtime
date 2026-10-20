@@ -1,0 +1,8 @@
+NUKE HOUR Runtime
+Derived from Meteor_original_ios by yzqjiying and upstream contributors.
+Original source references: https://gitee.com/yzqjiying/meteor_original_ios and https://gitee.com/466477891/meteor_original_ios
+Baseline: fd705f38c8f9d0a027d7ac7bc17763fb72bbccfb
+Upstream root license: Apache-2.0; original notices in source retained.
+Modified for iOS portability, external resource importing, runtime shader resolution, controls, launcher and gyroscope support (2026).
+No rights in commercial game assets or trademarks are granted.
+Third-party dependencies and their licensing remain separate; not included in this source-only snapshot.
